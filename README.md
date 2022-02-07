@@ -1,5 +1,6 @@
 # ProjetoBD
 Imobi - Site para aluguel de casa feito em Django
+
 Para utilizar o programa, primeiro crie um banco de dados em postgresql com as seguitnes informações:
 ```python
 'NAME': 'Imobi', 
@@ -7,8 +8,12 @@ Para utilizar o programa, primeiro crie um banco de dados em postgresql com as s
 'PASSWORD': '1234'
 'HOST': '127.0.0.1', 
 'PORT': '5432',
-```        
-A seguir escreva na linha de comando:
+```
+A seguir, ative o virtual enviroment, para windows, basta escrever na linha de comando:
+```python
+venv\Scripts\Activate.ps1
+```
+Em seguida, escreva na linha de comando:
 ```python
 python manage.py makemigrations
 python manage.py migrate
